@@ -14,6 +14,7 @@
 		AB66DA091D8A7B4D00F26F10 /* UIAlertController+DefaultAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = AB66DA001D8A7B4D00F26F10 /* UIAlertController+DefaultAlert.m */; };
 		AB66DA0A1D8A7B4D00F26F10 /* UIColor+ProjectColor.m in Sources */ = {isa = PBXBuildFile; fileRef = AB66DA021D8A7B4D00F26F10 /* UIColor+ProjectColor.m */; };
 		AB66DA0B1D8A7B4D00F26F10 /* UITextField+textFieldOpration.m in Sources */ = {isa = PBXBuildFile; fileRef = AB66DA041D8A7B4D00F26F10 /* UITextField+textFieldOpration.m */; };
+		ABFDF5DE1D8AD68C00A46C08 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = ABFDF5DD1D8AD68C00A46C08 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,8 @@
 		AB66DA021D8A7B4D00F26F10 /* UIColor+ProjectColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ProjectColor.m"; sourceTree = "<group>"; };
 		AB66DA031D8A7B4D00F26F10 /* UITextField+textFieldOpration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+textFieldOpration.h"; sourceTree = "<group>"; };
 		AB66DA041D8A7B4D00F26F10 /* UITextField+textFieldOpration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+textFieldOpration.m"; sourceTree = "<group>"; };
+		ABFDF5DC1D8AD68C00A46C08 /* HVHelperClass.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HVHelperClass.podspec; sourceTree = "<group>"; };
+		ABFDF5DD1D8AD68C00A46C08 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 		AB66D9E11D8A7AF900F26F10 = {
 			isa = PBXGroup;
 			children = (
+				ABFDF5DC1D8AD68C00A46C08 /* HVHelperClass.podspec */,
+				ABFDF5DD1D8AD68C00A46C08 /* README.md */,
 				AB66D9EC1D8A7AF900F26F10 /* HVHelperClass */,
 				AB66D9EB1D8A7AF900F26F10 /* Products */,
 			);
@@ -158,6 +163,7 @@
 				AB66DA091D8A7B4D00F26F10 /* UIAlertController+DefaultAlert.m in Sources */,
 				AB66DA061D8A7B4D00F26F10 /* NSDictionary+dictionaryOpration.m in Sources */,
 				AB66DA051D8A7B4D00F26F10 /* NSDate+DateOpration.m in Sources */,
+				ABFDF5DE1D8AD68C00A46C08 /* README.md in Sources */,
 				AB66DA081D8A7B4D00F26F10 /* UIActivityIndicatorView+ActivityView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +288,7 @@
 				AB66D9F51D8A7AF900F26F10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
