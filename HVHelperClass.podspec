@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HVHelperClass"
-  s.version      = "1.1"
+  s.version      = "1.1.1"
   s.summary      = "Common code that helps in project"
   s.description  = <<-DESC
 		   Common code that helps in regular projects
@@ -39,10 +39,8 @@ SOFTWARE.
    s.authors     = { "Harshal Valanda" => "valanda.harshal15@gmail.com", "Mrugesh Tank" => "mrugeshtank@gmail.com", "Nirav Sapariya" => "nirav.sapariya03@gmail.com"}
    s.platform    = :ios, "8.0"
 
-   s.source      = { :git => "https://bitbucket.org/HarshalValanda/hvhelperclass.git", :tag => "v1.1" }
-
-
-  s.source_files  = "HVHelperClass/*.{h,m}"
+   s.source      = { :git => "https://bitbucket.org/HarshalValanda/hvhelperclass.git", :tag => "v1.1.1" }
+  s.source_files  = "HVHelperClass/HVHelperClass.h"
 
 
   s.requires_arc = true

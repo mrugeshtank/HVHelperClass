@@ -18,7 +18,7 @@ You can use either [cocoapods](https://cocoapods.org) with
 pod 'HVHelperClass'
 ```
 
-or use [bitbucket](https://bitbucket.org/HarshalValanda/hvhelperclass).
+or use [github](https://github.com/mrugeshtank/HVHelperClass.git).
 
 
 License
