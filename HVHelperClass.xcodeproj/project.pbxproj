@@ -1,0 +1,253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB66D9EE1D8A7AF900F26F10 /* HVHelperClass.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AB66D9ED1D8A7AF900F26F10 /* HVHelperClass.h */; };
+		AB66D9F01D8A7AF900F26F10 /* HVHelperClass.m in Sources */ = {isa = PBXBuildFile; fileRef = AB66D9EF1D8A7AF900F26F10 /* HVHelperClass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB66D9E81D8A7AF900F26F10 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				AB66D9EE1D8A7AF900F26F10 /* HVHelperClass.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB66D9EA1D8A7AF900F26F10 /* libHVHelperClass.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHVHelperClass.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB66D9ED1D8A7AF900F26F10 /* HVHelperClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HVHelperClass.h; sourceTree = "<group>"; };
+		AB66D9EF1D8A7AF900F26F10 /* HVHelperClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HVHelperClass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB66D9E71D8A7AF900F26F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB66D9E11D8A7AF900F26F10 = {
+			isa = PBXGroup;
+			children = (
+				AB66D9EC1D8A7AF900F26F10 /* HVHelperClass */,
+				AB66D9EB1D8A7AF900F26F10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB66D9EB1D8A7AF900F26F10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB66D9EA1D8A7AF900F26F10 /* libHVHelperClass.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB66D9EC1D8A7AF900F26F10 /* HVHelperClass */ = {
+			isa = PBXGroup;
+			children = (
+				AB66D9ED1D8A7AF900F26F10 /* HVHelperClass.h */,
+				AB66D9EF1D8A7AF900F26F10 /* HVHelperClass.m */,
+			);
+			path = HVHelperClass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB66D9E91D8A7AF900F26F10 /* HVHelperClass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB66D9F31D8A7AF900F26F10 /* Build configuration list for PBXNativeTarget "HVHelperClass" */;
+			buildPhases = (
+				AB66D9E61D8A7AF900F26F10 /* Sources */,
+				AB66D9E71D8A7AF900F26F10 /* Frameworks */,
+				AB66D9E81D8A7AF900F26F10 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HVHelperClass;
+			productName = HVHelperClass;
+			productReference = AB66D9EA1D8A7AF900F26F10 /* libHVHelperClass.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB66D9E21D8A7AF900F26F10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = eheuristic;
+				TargetAttributes = {
+					AB66D9E91D8A7AF900F26F10 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = AB66D9E51D8A7AF900F26F10 /* Build configuration list for PBXProject "HVHelperClass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB66D9E11D8A7AF900F26F10;
+			productRefGroup = AB66D9EB1D8A7AF900F26F10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB66D9E91D8A7AF900F26F10 /* HVHelperClass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB66D9E61D8A7AF900F26F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB66D9F01D8A7AF900F26F10 /* HVHelperClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AB66D9F11D8A7AF900F26F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB66D9F21D8A7AF900F26F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB66D9F41D8A7AF900F26F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AB66D9F51D8A7AF900F26F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB66D9E51D8A7AF900F26F10 /* Build configuration list for PBXProject "HVHelperClass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB66D9F11D8A7AF900F26F10 /* Debug */,
+				AB66D9F21D8A7AF900F26F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB66D9F31D8A7AF900F26F10 /* Build configuration list for PBXNativeTarget "HVHelperClass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB66D9F41D8A7AF900F26F10 /* Debug */,
+				AB66D9F51D8A7AF900F26F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB66D9E21D8A7AF900F26F10 /* Project object */;
+}
