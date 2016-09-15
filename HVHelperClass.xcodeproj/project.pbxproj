@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB66D9EE1D8A7AF900F26F10 /* HVHelperClass.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AB66D9ED1D8A7AF900F26F10 /* HVHelperClass.h */; };
-		AB66D9F01D8A7AF900F26F10 /* HVHelperClass.m in Sources */ = {isa = PBXBuildFile; fileRef = AB66D9EF1D8A7AF900F26F10 /* HVHelperClass.m */; };
+		AB66DA051D8A7B4D00F26F10 /* NSDate+DateOpration.m in Sources */ = {isa = PBXBuildFile; fileRef = AB66D9F81D8A7B4D00F26F10 /* NSDate+DateOpration.m */; };
+		AB66DA061D8A7B4D00F26F10 /* NSDictionary+dictionaryOpration.m in Sources */ = {isa = PBXBuildFile; fileRef = AB66D9FA1D8A7B4D00F26F10 /* NSDictionary+dictionaryOpration.m */; };
+		AB66DA071D8A7B4D00F26F10 /* NSString+stringOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AB66D9FC1D8A7B4D00F26F10 /* NSString+stringOperation.m */; };
+		AB66DA081D8A7B4D00F26F10 /* UIActivityIndicatorView+ActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB66D9FE1D8A7B4D00F26F10 /* UIActivityIndicatorView+ActivityView.m */; };
+		AB66DA091D8A7B4D00F26F10 /* UIAlertController+DefaultAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = AB66DA001D8A7B4D00F26F10 /* UIAlertController+DefaultAlert.m */; };
+		AB66DA0A1D8A7B4D00F26F10 /* UIColor+ProjectColor.m in Sources */ = {isa = PBXBuildFile; fileRef = AB66DA021D8A7B4D00F26F10 /* UIColor+ProjectColor.m */; };
+		AB66DA0B1D8A7B4D00F26F10 /* UITextField+textFieldOpration.m in Sources */ = {isa = PBXBuildFile; fileRef = AB66DA041D8A7B4D00F26F10 /* UITextField+textFieldOpration.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +23,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				AB66D9EE1D8A7AF900F26F10 /* HVHelperClass.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,8 +30,21 @@
 
 /* Begin PBXFileReference section */
 		AB66D9EA1D8A7AF900F26F10 /* libHVHelperClass.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHVHelperClass.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB66D9ED1D8A7AF900F26F10 /* HVHelperClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HVHelperClass.h; sourceTree = "<group>"; };
-		AB66D9EF1D8A7AF900F26F10 /* HVHelperClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HVHelperClass.m; sourceTree = "<group>"; };
+		AB66D9F61D8A7B4D00F26F10 /* HVHelperClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVHelperClass.h; sourceTree = "<group>"; };
+		AB66D9F71D8A7B4D00F26F10 /* NSDate+DateOpration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DateOpration.h"; sourceTree = "<group>"; };
+		AB66D9F81D8A7B4D00F26F10 /* NSDate+DateOpration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DateOpration.m"; sourceTree = "<group>"; };
+		AB66D9F91D8A7B4D00F26F10 /* NSDictionary+dictionaryOpration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+dictionaryOpration.h"; sourceTree = "<group>"; };
+		AB66D9FA1D8A7B4D00F26F10 /* NSDictionary+dictionaryOpration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+dictionaryOpration.m"; sourceTree = "<group>"; };
+		AB66D9FB1D8A7B4D00F26F10 /* NSString+stringOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+stringOperation.h"; sourceTree = "<group>"; };
+		AB66D9FC1D8A7B4D00F26F10 /* NSString+stringOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+stringOperation.m"; sourceTree = "<group>"; };
+		AB66D9FD1D8A7B4D00F26F10 /* UIActivityIndicatorView+ActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+ActivityView.h"; sourceTree = "<group>"; };
+		AB66D9FE1D8A7B4D00F26F10 /* UIActivityIndicatorView+ActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+ActivityView.m"; sourceTree = "<group>"; };
+		AB66D9FF1D8A7B4D00F26F10 /* UIAlertController+DefaultAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+DefaultAlert.h"; sourceTree = "<group>"; };
+		AB66DA001D8A7B4D00F26F10 /* UIAlertController+DefaultAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+DefaultAlert.m"; sourceTree = "<group>"; };
+		AB66DA011D8A7B4D00F26F10 /* UIColor+ProjectColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ProjectColor.h"; sourceTree = "<group>"; };
+		AB66DA021D8A7B4D00F26F10 /* UIColor+ProjectColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ProjectColor.m"; sourceTree = "<group>"; };
+		AB66DA031D8A7B4D00F26F10 /* UITextField+textFieldOpration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+textFieldOpration.h"; sourceTree = "<group>"; };
+		AB66DA041D8A7B4D00F26F10 /* UITextField+textFieldOpration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+textFieldOpration.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +77,21 @@
 		AB66D9EC1D8A7AF900F26F10 /* HVHelperClass */ = {
 			isa = PBXGroup;
 			children = (
-				AB66D9ED1D8A7AF900F26F10 /* HVHelperClass.h */,
-				AB66D9EF1D8A7AF900F26F10 /* HVHelperClass.m */,
+				AB66D9F61D8A7B4D00F26F10 /* HVHelperClass.h */,
+				AB66D9F71D8A7B4D00F26F10 /* NSDate+DateOpration.h */,
+				AB66D9F81D8A7B4D00F26F10 /* NSDate+DateOpration.m */,
+				AB66D9F91D8A7B4D00F26F10 /* NSDictionary+dictionaryOpration.h */,
+				AB66D9FA1D8A7B4D00F26F10 /* NSDictionary+dictionaryOpration.m */,
+				AB66D9FB1D8A7B4D00F26F10 /* NSString+stringOperation.h */,
+				AB66D9FC1D8A7B4D00F26F10 /* NSString+stringOperation.m */,
+				AB66D9FD1D8A7B4D00F26F10 /* UIActivityIndicatorView+ActivityView.h */,
+				AB66D9FE1D8A7B4D00F26F10 /* UIActivityIndicatorView+ActivityView.m */,
+				AB66D9FF1D8A7B4D00F26F10 /* UIAlertController+DefaultAlert.h */,
+				AB66DA001D8A7B4D00F26F10 /* UIAlertController+DefaultAlert.m */,
+				AB66DA011D8A7B4D00F26F10 /* UIColor+ProjectColor.h */,
+				AB66DA021D8A7B4D00F26F10 /* UIColor+ProjectColor.m */,
+				AB66DA031D8A7B4D00F26F10 /* UITextField+textFieldOpration.h */,
+				AB66DA041D8A7B4D00F26F10 /* UITextField+textFieldOpration.m */,
 			);
 			path = HVHelperClass;
 			sourceTree = "<group>";
@@ -122,7 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB66D9F01D8A7AF900F26F10 /* HVHelperClass.m in Sources */,
+				AB66DA0B1D8A7B4D00F26F10 /* UITextField+textFieldOpration.m in Sources */,
+				AB66DA071D8A7B4D00F26F10 /* NSString+stringOperation.m in Sources */,
+				AB66DA0A1D8A7B4D00F26F10 /* UIColor+ProjectColor.m in Sources */,
+				AB66DA091D8A7B4D00F26F10 /* UIAlertController+DefaultAlert.m in Sources */,
+				AB66DA061D8A7B4D00F26F10 /* NSDictionary+dictionaryOpration.m in Sources */,
+				AB66DA051D8A7B4D00F26F10 /* NSDate+DateOpration.m in Sources */,
+				AB66DA081D8A7B4D00F26F10 /* UIActivityIndicatorView+ActivityView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
