@@ -8,27 +8,30 @@
 
 #import "UIColor+ProjectColor.h"
 
+
 @implementation UIColor (ProjectColor)
-+(UIColor *)themeColor
-{
-    return [UIColor colorWithRed:2/255.0f green:245/255.0f blue:30/255.0f alpha:1];
-}
 
-+(UIColor *)titleColor
-{
-    return [UIColor colorWithRed:2/255.0f green:245/255.0f blue:30/255.0f alpha:1];
-}
 
-+(UIColor *)subtitleColor
-{
-    return [UIColor colorWithRed:2/255.0f green:245/255.0f blue:30/255.0f alpha:1];
-}
-
-+(UIColor *)appBgColor
-{
-    return [UIColor colorWithRed:2/255.0f green:245/255.0f blue:30/255.0f alpha:1];
-}
-
+//+(UIColor *)themeColor
+//{
+//    return [UIColor colorWithRed:2/255.0f green:245/255.0f blue:30/255.0f alpha:1];
+//}
+//
+//+(UIColor *)titleColor
+//{
+//    return [UIColor colorWithRed:2/255.0f green:245/255.0f blue:30/255.0f alpha:1];
+//}
+//
+//+(UIColor *)subtitleColor
+//{
+//    return [UIColor colorWithRed:2/255.0f green:245/255.0f blue:30/255.0f alpha:1];
+//}
+//
+//+(UIColor *)appBgColor
+//{
+//    return [UIColor colorWithRed:2/255.0f green:245/255.0f blue:30/255.0f alpha:1];
+//}
+//
 +(UIColor *)colorWithHexString:(NSString *)hexString {
     unsigned rgbValue = 0;
     NSScanner *scanner = [NSScanner scannerWithString:hexString];
