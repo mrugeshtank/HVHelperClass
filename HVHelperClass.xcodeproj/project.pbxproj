@@ -14,8 +14,6 @@
 		AB66DA091D8A7B4D00F26F10 /* UIAlertController+DefaultAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = AB66DA001D8A7B4D00F26F10 /* UIAlertController+DefaultAlert.m */; };
 		AB66DA0A1D8A7B4D00F26F10 /* UIColor+ProjectColor.m in Sources */ = {isa = PBXBuildFile; fileRef = AB66DA021D8A7B4D00F26F10 /* UIColor+ProjectColor.m */; };
 		AB66DA0B1D8A7B4D00F26F10 /* UITextField+textFieldOpration.m in Sources */ = {isa = PBXBuildFile; fileRef = AB66DA041D8A7B4D00F26F10 /* UITextField+textFieldOpration.m */; };
-		ABFDF5DE1D8AD68C00A46C08 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = ABFDF5DD1D8AD68C00A46C08 /* README.md */; };
-		ABFDF5E01D8AD78E00A46C08 /* CHANGELOG.md in Sources */ = {isa = PBXBuildFile; fileRef = ABFDF5DF1D8AD78E00A46C08 /* CHANGELOG.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -166,8 +164,6 @@
 				AB66DA091D8A7B4D00F26F10 /* UIAlertController+DefaultAlert.m in Sources */,
 				AB66DA061D8A7B4D00F26F10 /* NSDictionary+dictionaryOpration.m in Sources */,
 				AB66DA051D8A7B4D00F26F10 /* NSDate+DateOpration.m in Sources */,
-				ABFDF5DE1D8AD68C00A46C08 /* README.md in Sources */,
-				ABFDF5E01D8AD78E00A46C08 /* CHANGELOG.md in Sources */,
 				AB66DA081D8A7B4D00F26F10 /* UIActivityIndicatorView+ActivityView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
