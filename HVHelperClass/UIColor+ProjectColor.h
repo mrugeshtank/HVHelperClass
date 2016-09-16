@@ -10,10 +10,10 @@
 
 @interface UIColor (ProjectColor)
 
-+(UIColor *)themeColor;
-+(UIColor *)titleColor;
-+(UIColor *)subtitleColor;
-+(UIColor *)appBgColor;
+//+(UIColor *)themeColor;
+//+(UIColor *)titleColor;
+//+(UIColor *)subtitleColor;
+//+(UIColor *)appBgColor;
 +(UIColor *)colorWithHexString:(NSString *)hexString;
 
 @end
